@@ -6,6 +6,7 @@ $(document).ready(function() {
 		var keyCode = (e.keyCode)
 		var audio = document.querySelector(`audio[data-key-code="${keyCode}"]`) 
 		audio.play()
+		audio.currentTime = 0;
 	}
 
 // JS to play audio on button click
