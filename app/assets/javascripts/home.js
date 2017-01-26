@@ -1,5 +1,14 @@
 $(document).ready(function() {
 
+	window.addEventListener('keypress', playSound);
+
+	function playSound(e) {
+		var keyCode = (e.keyCode)
+		var audio = document.querySelector(`audio[data-key-code="${keyCode}"]`) 
+		audio.play()
+	}
+
+// JS to play audio on button click
 	$('#1').click(function() {
 		var playPromise = $('#clap').get(0).play();
 	  playPromise.then(function() {
