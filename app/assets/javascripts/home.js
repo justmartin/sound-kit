@@ -34,4 +34,60 @@ $(document).ready(function() {
 	  })
 	})
 
+	$('#4').click(function() {
+		var playPromise = $('#snare').get(0).play();
+	  playPromise.then(function() {
+	  	$('#snare').get(0).play()
+	  	$('#snare').get(0).currentTime = 0;
+	  })
+	})
+
+	$('#5').click(function() {
+		var playPromise = $('#snare').get(0).play();
+	  playPromise.then(function() {
+	  	$('#snare').get(0).play()
+	  	$('#snare').get(0).currentTime = 0;
+	  })
+	})
+
+	$('#6').click(function() {
+		var playPromise = $('#snare').get(0).play();
+	  playPromise.then(function() {
+	  	$('#snare').get(0).play()
+	  	$('#snare').get(0).currentTime = 0;
+	  })
+	})
+
+	$('#7').click(function() {
+		var playPromise = $('#snare').get(0).play();
+	  playPromise.then(function() {
+	  	$('#snare').get(0).play()
+	  	$('#snare').get(0).currentTime = 0;
+	  })
+	})
+
+	$('#8').click(function() {
+		var playPromise = $('#snare').get(0).play();
+	  playPromise.then(function() {
+	  	$('#snare').get(0).play()
+	  	$('#snare').get(0).currentTime = 0;
+	  })
+	})
+
+	$('#9').click(function() {
+		var playPromise = $('#snare').get(0).play();
+	  playPromise.then(function() {
+	  	$('#snare').get(0).play()
+	  	$('#snare').get(0).currentTime = 0;
+	  })
+	})
+
+	$('#0').click(function() {
+		var playPromise = $('#snare').get(0).play();
+	  playPromise.then(function() {
+	  	$('#snare').get(0).play()
+	  	$('#snare').get(0).currentTime = 0;
+	  })
+	})
+
 });
