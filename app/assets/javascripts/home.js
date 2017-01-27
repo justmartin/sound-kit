@@ -75,10 +75,10 @@ $(document).ready(function() {
 	})
 
 	$('#9').click(function() {
-		var playPromise = $('#snare').get(0).play();
+		var playPromise = $('#airhorn').get(0).play();
 	  playPromise.then(function() {
-	  	$('#snare').get(0).play()
-	  	$('#snare').get(0).currentTime = 0;
+	  	$('#airhorn').get(0).play()
+	  	$('#airhorn').get(0).currentTime = 0;
 	  })
 	})
 
