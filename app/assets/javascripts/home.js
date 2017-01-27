@@ -23,23 +23,6 @@ $(document).ready(function() {
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // JS to play audio on button click
 	$('#1').click(function() {
 		var playPromise = $('#clap').get(0).play();
