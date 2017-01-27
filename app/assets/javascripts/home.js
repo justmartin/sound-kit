@@ -1,13 +1,44 @@
 $(document).ready(function() {
 
 	window.addEventListener('keypress', playSound);
+	window.addEventListener('keypress', addStyle);
 
 	function playSound(e) {
 		var keyCode = (e.keyCode)
 		var audio = document.querySelector(`audio[data-key-code="${keyCode}"]`) 
+
 		audio.play()
 		audio.currentTime = 0;
 	}
+
+	function addStyle(e) {
+		var keyCode = (e.keyCode)
+		var key = document.querySelector(`.key[data-key-code="${keyCode}"]`) 
+
+		key.classList.add('playing');
+
+		setTimeout(function(){
+       key.classList.remove('playing');
+    }, 100);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // JS to play audio on button click
 	$('#1').click(function() {
