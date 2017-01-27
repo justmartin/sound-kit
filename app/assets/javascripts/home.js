@@ -27,8 +27,17 @@ $(document).ready(function() {
 	$('#1').click(function() {
 		var playPromise = $('#clap').get(0).play();
 	  playPromise.then(function() {
+	  	//plays sounds
 	  	$('#clap').get(0).play()
 	  	$('#clap').get(0).currentTime = 0;
+
+	  	//adds styling
+	  	$('#1').addClass('playing')
+
+	  	//timeout function to remove class in milliseconds
+	  	setTimeout(function() {
+      	$('#1').removeClass('playing'); 
+      }, 100);
 	  })
 	})
 
