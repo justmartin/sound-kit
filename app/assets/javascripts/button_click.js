@@ -46,10 +46,10 @@ $(document).ready(function() {
 	})
 
 	$('#4').click(function() {
-		var playPromise = $('#snare').get(0).play();
+		var playPromise = $('#kick-2').get(0).play();
 	  playPromise.then(function() {
-	  	$('#snare').get(0).play()
-	  	$('#snare').get(0).currentTime = 0;
+	  	$('#kick-2').get(0).play()
+	  	$('#kick-2').get(0).currentTime = 0;
 
 	  	$('#4').addClass('playing')
 
@@ -60,10 +60,10 @@ $(document).ready(function() {
 	})
 
 	$('#5').click(function() {
-		var playPromise = $('#snare').get(0).play();
+		var playPromise = $('#kick-3').get(0).play();
 	  playPromise.then(function() {
-	  	$('#snare').get(0).play()
-	  	$('#snare').get(0).currentTime = 0;
+	  	$('#kick-3').get(0).play()
+	  	$('#kick-3').get(0).currentTime = 0;
 
 	  	$('#5').addClass('playing')
 
@@ -74,10 +74,10 @@ $(document).ready(function() {
 	})
 
 	$('#6').click(function() {
-		var playPromise = $('#snare').get(0).play();
+		var playPromise = $('#bass').get(0).play();
 	  playPromise.then(function() {
-	  	$('#snare').get(0).play()
-	  	$('#snare').get(0).currentTime = 0;
+	  	$('#bass').get(0).play()
+	  	$('#bass').get(0).currentTime = 0;
 
 	  	$('#6').addClass('playing')
 
@@ -88,10 +88,10 @@ $(document).ready(function() {
 	})
 
 	$('#7').click(function() {
-		var playPromise = $('#snare').get(0).play();
+		var playPromise = $('#clap-2').get(0).play();
 	  playPromise.then(function() {
-	  	$('#snare').get(0).play()
-	  	$('#snare').get(0).currentTime = 0;
+	  	$('#clap-2').get(0).play()
+	  	$('#clap-2').get(0).currentTime = 0;
 
 	  	$('#7').addClass('playing')
 
@@ -102,10 +102,10 @@ $(document).ready(function() {
 	})
 
 	$('#8').click(function() {
-		var playPromise = $('#snare').get(0).play();
+		var playPromise = $('#hit').get(0).play();
 	  playPromise.then(function() {
-	  	$('#snare').get(0).play()
-	  	$('#snare').get(0).currentTime = 0;
+	  	$('#hit').get(0).play()
+	  	$('#hit').get(0).currentTime = 0;
 
 	  	$('#8').addClass('playing')
 
@@ -116,10 +116,10 @@ $(document).ready(function() {
 	})
 
 	$('#9').click(function() {
-		var playPromise = $('#airhorn').get(0).play();
+		var playPromise = $('#snap').get(0).play();
 	  playPromise.then(function() {
-	  	$('#airhorn').get(0).play()
-	  	$('#airhorn').get(0).currentTime = 0;
+	  	$('#snap').get(0).play()
+	  	$('#snap').get(0).currentTime = 0;
 
 	  	$('#9').addClass('playing')
 
@@ -130,10 +130,10 @@ $(document).ready(function() {
 	})
 
 	$('#0').click(function() {
-		var playPromise = $('#snare').get(0).play();
+		var playPromise = $('#ohyeah').get(0).play();
 	  playPromise.then(function() {
-	  	$('#snare').get(0).play()
-	  	$('#snare').get(0).currentTime = 0;
+	  	$('#ohyeah').get(0).play()
+	  	$('#ohyeah').get(0).currentTime = 0;
 
 	  	$('#0').addClass('playing')
 
