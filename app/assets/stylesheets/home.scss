@@ -6,9 +6,10 @@
 	background: url(headphones.jpg) no-repeat center center fixed;
 	background-size: cover;
 	position:fixed;
-	width:100%;
+	width:101%;
 	height:100%;
 	z-index:-1;
+	filter: blur(3px);
 }
 
 #brand {
