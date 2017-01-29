@@ -2,9 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
+.page-background {
 	background: url(headphones.jpg) no-repeat center center fixed;
 	background-size: cover;
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:-1;
 }
 
 #brand {
